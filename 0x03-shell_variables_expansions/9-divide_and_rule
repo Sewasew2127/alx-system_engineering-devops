@@ -1,0 +1,2 @@
+#!/bus/bin
+echo $(($POWER / $DIVIDE))
