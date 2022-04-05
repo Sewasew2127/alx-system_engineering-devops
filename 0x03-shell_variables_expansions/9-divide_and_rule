@@ -1,2 +1,2 @@
-#!/bus/bin
+#!/bin/bash
 echo $(($POWER / $DIVIDE))
