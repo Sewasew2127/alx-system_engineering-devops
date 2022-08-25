@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# a script to show the lisinig ports
+netstat -pl
