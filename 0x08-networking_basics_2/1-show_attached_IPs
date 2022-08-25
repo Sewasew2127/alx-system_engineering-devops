@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# a sash script that display all active IP$ IPs on the machine it is excuted on
+ifconfig | grep "inet addr:" | awk '{ print $2 }' | cut -d: -f2
