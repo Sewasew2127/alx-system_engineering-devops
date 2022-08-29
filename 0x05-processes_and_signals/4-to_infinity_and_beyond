@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# a bash script to display a stirnd indfinitley
+while :
+do
+	echo "To infintiy and beyond"
+	sleep 2
+done
