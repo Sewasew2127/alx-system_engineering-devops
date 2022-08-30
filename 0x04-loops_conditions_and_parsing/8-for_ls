@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# a bash script that diplays the conted of the current dir
+DIR="$(ls)"
+for i in $DIR
+do
+	echo "$i" | cut -d'-' -f2
+done
