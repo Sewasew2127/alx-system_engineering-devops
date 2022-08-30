@@ -13,9 +13,9 @@ do
 	then
 		echo -n "Buzz"
 	fi
-	if [ $three -ne 0 -a $five -ne 0 ]
+	if [[ ( $three -ne 0 ) && ( $five -ne 0 ) ]]
 	then
-		echo -n $i
+		echo -n "$i"
 	fi
 	echo ""
 done
