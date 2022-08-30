@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# a script that disp;ays the content of the file /etc/passwd
+fname=/"etc/passwd"
+while IFS=':' read -r -a line
+do
+	echo "${line[0]}:${line[3]};${line[5]}"
+done < "$fname"
