@@ -5,7 +5,7 @@ while IFS=":" read -r -a line
 do
 	uname="${line[0]}"
 	grpid="${line[3]}"
-	home="${line[3]}"
+	home="${line[5]}"
 	cshell="${line[6]}"
 	uid="${line[2]}"
 	pw="${line[1]}"
