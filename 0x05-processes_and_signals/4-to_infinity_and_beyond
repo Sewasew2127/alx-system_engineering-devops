@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# a bash script to display a stirnd indfinitley
+# a bash script to display a stirn indfinitley
 while :
 do
 	echo "To infintiy and beyond"
